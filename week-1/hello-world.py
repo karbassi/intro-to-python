@@ -12,7 +12,7 @@
 
 age = input("How old are you? ")
 
-age = complex(age)
+age = int(age)
 
 # Print the input value
 print(f"You are {age} years old.")
