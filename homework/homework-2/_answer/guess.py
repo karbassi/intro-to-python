@@ -76,9 +76,10 @@ answer = randint(guess_min, guess_max)
 
 # Create a variable that holds the number of guesses
 guess_counter = 0
+allowed_guesses = 5
 
-# Loop until the user has guessed 5 times
-while guess_counter < 5:
+# Loop until the user has guessed `allowed_guesses` times
+while guess_counter < allowed_guesses:
 
     # Loop until `guess` is a valid int
     while True:
@@ -107,7 +108,7 @@ while guess_counter < 5:
         break
 
     # Otherwise, display a message with number of guesses left
-    print(f'\n 😢 Nope! You have {5 - guess_counter} tries left.\n')
+    print(f'\n 😢 Nope! You have {allowed_guesses - guess_counter} tries left.\n')
 
 else:
 
