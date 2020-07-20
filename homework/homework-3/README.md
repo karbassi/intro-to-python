@@ -1,6 +1,6 @@
 # Homework 3
 
-Class Video: https://youtu.be/rG3jnPlHsOA
+Class Video: <https://youtu.be/rG3jnPlHsOA>
 
 **Due:** July 24, 2020 at 02:00 PM CT
 
@@ -19,9 +19,9 @@ The `Person` class should have the following functions:
 
 ## `set_weight(weight)`
 
-This function will save the `weight` to the class for later use. `weight` is required to float between `0.0` and `1000.0`. `weight` is in kilograms.
+This function will save the `weight` to the class for later use. `weight` is required to able to convert to a float between `0.0` and `1000.0`. `weight` is in kilograms.
 
-Throw an error if not a `float` or not within the correct number range.
+Throw an error if `weight` cannot be converted to a `float` or not within the correct number range.
 
 ## `get_weight()`
 
@@ -29,9 +29,9 @@ This function will return the class's `weight` as a float.
 
 ## `set_height(height)`
 
-This function will save the `height` to the class for later use. `height` is required to float between `0.0` and `3.0`. `height` is in meters.
+This function will save the `height` to the class for later use. `height` is required to able to convert to a float between `0.0` and `3.0`. `height` is in meters.
 
-Throw an error if not a `float` or not within the correct number range.
+Throw an error if `height` cannot be converted to a `float` or not within the correct number range.
 
 ## `get_height()`
 
@@ -91,7 +91,7 @@ print(kelly_bmi) # 145.83
 # Tips
 
 - [Raising an Exception](https://realpython.com/python-exceptions/#raising-an-exception)
-- [`isintance()`](https://www.w3schools.com/python/ref_func_isinstance.asp)
+- [`isinstance()`](https://www.w3schools.com/python/ref_func_isinstance.asp)
 - [TypeError](https://docs.python.org/3/library/exceptions.html#TypeError)
 - [Convert Python String to DateTime Object](https://www.tutorialkart.com/python/python-datetime/python-string-to-datetime/)
 - [BMI Formula](https://www.thecalculatorsite.com/articles/health/bmi-formula-for-bmi-calculations.php)
