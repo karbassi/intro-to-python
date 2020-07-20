@@ -37,7 +37,7 @@ class Dog:
         return self.age * self.years_to_human
 
 
-charlie = Dog(name='Charlie',gender='male', breed='westie', color='white', age=13)
+charlie = Dog(name='Charlie', gender='male', breed='westie', color='white', age=13)
 
 # print(charlie.name)
 
